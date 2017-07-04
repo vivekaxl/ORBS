@@ -20,4 +20,4 @@ rm -rf work
 cp -r orig work
 
 # instrument the project
-sed -e '9 s/$/ System.out.println("ORBS: " + dots);/' < orig/checker.java > work/checker.java
+sed -e '13 s/$/ System.out.println("ORBS: " + dots);/' < orig/checker.java > work/checker.java

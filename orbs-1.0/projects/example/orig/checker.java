@@ -1,5 +1,3 @@
-// This file is part of the ORBS distribution.
-// See the file LICENSE.TXT for more information.
 class checker {
   public static void main(String[] args) {
     int dots = 0;
@@ -12,6 +10,7 @@ class checker {
         ++chars;
       }
     }
+
     System.out.println(dots);
     System.out.println(chars);
   }
